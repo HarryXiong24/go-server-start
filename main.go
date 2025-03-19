@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	"go-server-start/db"
-	"go-server-start/routers"
+	"go-server-start/internal/db"
+	"go-server-start/internal/routers"
 
 	"github.com/gin-gonic/gin"
 )

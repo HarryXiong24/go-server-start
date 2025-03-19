@@ -1,2 +1,2 @@
-GET http://localhost:8080//get-user-info?name=Peter
+GET http://localhost:8080/get-user-info?name=Peter
 Content-Type: application/json

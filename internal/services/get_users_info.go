@@ -2,7 +2,7 @@ package services
 
 import (
 	"go-server-start/api"
-	"go-server-start/repositories"
+	"go-server-start/internal/repositories"
 )
 
 func GetUserInfo(req *api.GetUserInfoRequest) (*api.GetUserInfoResponse, error) {

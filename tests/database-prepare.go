@@ -1,8 +1,9 @@
 package main
 
 import (
-	"go-server-start/config"
-	"go-server-start/models"
+	"go-server-start/internal/config"
+	"go-server-start/internal/models"
+
 	"gorm.io/driver/sqlite"
 	"gorm.io/gorm"
 )

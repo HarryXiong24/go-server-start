@@ -1,7 +1,8 @@
 package db
 
 import (
-	"go-server-start/config"
+	"go-server-start/internal/config"
+
 	"gorm.io/driver/sqlite"
 	"gorm.io/gorm"
 )

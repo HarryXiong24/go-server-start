@@ -3,7 +3,7 @@ package handlers
 import (
 	"fmt"
 	"go-server-start/api"
-	"go-server-start/services"
+	"go-server-start/internal/services"
 	"net/http"
 
 	"github.com/gin-gonic/gin"

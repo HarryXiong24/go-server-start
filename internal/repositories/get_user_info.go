@@ -2,8 +2,8 @@ package repositories
 
 import (
 	"fmt"
-	"go-server-start/db"
-	"go-server-start/models"
+	"go-server-start/internal/db"
+	"go-server-start/internal/models"
 )
 
 func GetUserInfo(name string) (*models.User, error) {

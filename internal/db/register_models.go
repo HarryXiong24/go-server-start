@@ -1,7 +1,8 @@
 package db
 
 import (
-	"go-server-start/models"
+	"go-server-start/internal/models"
+
 	"gorm.io/gorm"
 )
 

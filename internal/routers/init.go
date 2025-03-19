@@ -1,8 +1,9 @@
 package routers
 
 import (
+	"go-server-start/internal/handlers"
+
 	"github.com/gin-gonic/gin"
-	"go-server-start/handlers"
 )
 
 func Init(router *gin.RouterGroup) {
